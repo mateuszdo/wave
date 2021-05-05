@@ -47,6 +47,7 @@ h1 {
     max-width: 100%;
     height: 800px;
     background-image: url('/resources/images/background2.jpg');
+    background-position: center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -81,30 +82,60 @@ h1 {
 .beginner-course {
     background-image: url('/resources/images/school.jpg');
     background-size: cover;
-    grid-column: 2 / span 5;
-    grid-row: 2 / span 6;
+    background-position: center;
+    grid-area: 2 / 2 /span 6 / span 5;
     border: 5px solid whitesmoke;
+    opacity: .8;
 }
 .advance-course {
     background-image: url('/resources/images/upside.jpg');
     background-size: cover;
-    grid-column: 2 / span 5;
-    grid-row: 8 / 12;
+    background-position: center;
+    grid-area: 8 / 2 / 12 / span 5 ;
     border: 5px solid whitesmoke;
+    opacity: .8;
+    
    
 }
 .shop {
     background-image: url('/resources/images/shop.jpg');
     background-size: cover;
-    grid-column: 7 / 12;
-    grid-row: 5 / 12;
+    background-position: center;
+    grid-area: 5 / 7 / 12 / 12;
     border: 5px solid whitesmoke;
+    opacity: .8;
     
 }
 .camp {
     background-image: url('/resources/images/holiday.jpg');
     background-size: cover;
-    grid-column: 7 / 12;
-    grid-row: 2 / 5;
+    background-position: center;
+    grid-area: 2 / 7 / 5 / 12;
     border: 5px solid whitesmoke;
+    opacity: .8;
+}
+.features-container h3 {
+    font-size: 22px;
+    color: grey;
+    float: left;
+    margin: 2px;
+    
+}
+#white-h3 {
+    color: rgb(216, 209, 209);
+}
+@media only screen and (min-width: 1200px) {
+    body {
+        width: 1200px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        
+    }
 }
