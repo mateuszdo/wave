@@ -124,6 +124,37 @@ h1 {
 #white-h3 {
     color: rgb(216, 209, 209);
 }
+.our-team {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('/resources/images/remy-penet-L5AD1XCQhpk-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.our-team-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+}
+.surfer {
+    margin: 30px;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+
+}
+.our-team h2 {
+    text-align: center;
+    color: grey;
+    font-size: 34px;
+    position: relative;
+    top: 20px;
+}
+
 @media only screen and (min-width: 1200px) {
     body {
         width: 1200px;
