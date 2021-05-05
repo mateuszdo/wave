@@ -85,7 +85,7 @@ h1 {
     background-position: center;
     grid-area: 2 / 2 /span 6 / span 5;
     border: 5px solid whitesmoke;
-    opacity: .8;
+    opacity: .85;
 }
 .advance-course {
     background-image: url('/resources/images/upside.jpg');
@@ -93,7 +93,7 @@ h1 {
     background-position: center;
     grid-area: 8 / 2 / 12 / span 5 ;
     border: 5px solid whitesmoke;
-    opacity: .8;
+    opacity: .85;
     
    
 }
@@ -103,7 +103,7 @@ h1 {
     background-position: center;
     grid-area: 5 / 7 / 12 / 12;
     border: 5px solid whitesmoke;
-    opacity: .8;
+    opacity: .85;
     
 }
 .camp {
@@ -112,7 +112,7 @@ h1 {
     background-position: center;
     grid-area: 2 / 7 / 5 / 12;
     border: 5px solid whitesmoke;
-    opacity: .8;
+    opacity: .85;
 }
 .features-container h3 {
     font-size: 22px;
