@@ -6,12 +6,14 @@
     
 }
 .nav-bar {
+    position: fixed;
     width: 100%;
     height: 70px;
-    background-color: rgba(252, 252, 252, 0.575);
+    z-index: 1;
+    background-color: rgba(247, 242, 242, 0.973);
 }
 nav-links {
-    position: fixed;
+   
     border: 2px solid black;
     list-style: none;
     height: 50px;
@@ -137,7 +139,7 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+   
     width: 100%;
 }
 .surfer {
@@ -172,18 +174,41 @@ footer h5 {
     margin: 40px auto;
     width: 100px;
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1300px) {
     body {
-        width: 1200px;
+        width: 1300px;
+        margin: auto;
+    }
+    .nav-bar {
+        width: 1300px;
         margin: auto;
     }
 }
-@media only screen and (max-width: 780px) {
-    .nav-links {
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
+@media only screen and (max-width: 1024px) {
+    body {
+        width: 100%;
+        margin: auto;
         
+    }
+    .nav-bar {
+        width: 1024px;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+    .our-team-container {
+        flex-direction: column;
+    }
+    footer h1, h5 {
+        display: none;
+    }
+    body {
+        width: 100%;
+        margin: auto;
+    }
+    .nav-bar {
+        width: 100%;
+        margin: auto;
     }
 }
