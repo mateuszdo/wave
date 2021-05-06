@@ -109,7 +109,7 @@ h1 {
     
 }
 .camp {
-    background-image: url('../images/holiday.jpg');
+    background-image: url("../images/holiday.jpg");
     background-size: cover;
     background-position: center;
     grid-area: 2 / 7 / 5 / 12;
@@ -130,7 +130,7 @@ h1 {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('../images/remy-penet-L5AD1XCQhpk-unsplash.jpg');
+    background-image: url("../images/remy-penet-L5AD1XCQhpk-unsplash.jpg");
     background-position: center;
     background-size: cover;
 }
