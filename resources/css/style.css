@@ -48,7 +48,7 @@ h1 {
 .main-container {
     max-width: 100%;
     height: 800px;
-    background-image: url('resources/images/background2.jpg');
+    background-image: url('../images/background2.jpg');
     background-position: center;
     background-size: cover;
     display: flex;
@@ -82,7 +82,7 @@ h1 {
 
 }
 .beginner-course {
-    background-image: url('resources/images/school.jpg');
+    background-image: url('../images/school.jpg');
     background-size: cover;
     background-position: center;
     grid-area: 2 / 2 /span 6 / span 5;
@@ -90,7 +90,7 @@ h1 {
     opacity: .85;
 }
 .advance-course {
-    background-image: url('resources/images/upside.jpg');
+    background-image: url('../images/upside.jpg');
     background-size: cover;
     background-position: center;
     grid-area: 8 / 2 / 12 / span 5 ;
@@ -100,7 +100,7 @@ h1 {
    
 }
 .shop {
-    background-image: url('resources/images/shop.jpg');
+    background-image: url('../images/shop.jpg');
     background-size: cover;
     background-position: center;
     grid-area: 5 / 7 / 12 / 12;
@@ -109,7 +109,7 @@ h1 {
     
 }
 .camp {
-    background-image: url('resources/images/holiday.jpg');
+    background-image: url('/resources/images/holiday.jpg');
     background-size: cover;
     background-position: center;
     grid-area: 2 / 7 / 5 / 12;
@@ -130,7 +130,7 @@ h1 {
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('resources/images/remy-penet-L5AD1XCQhpk-unsplash.jpg');
+    background-image: url('/resources/images/remy-penet-L5AD1XCQhpk-unsplash.jpg');
     background-position: center;
     background-size: cover;
 }
